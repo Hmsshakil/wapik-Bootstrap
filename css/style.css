@@ -1,0 +1,115 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+section{
+    padding-top: 80px;
+}
+.head{
+background-image: url('../images/hbg.jpg');
+
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.headbg{
+     background-color: rgba(47, 103, 105, 0.89);
+width: 100%;
+    background-size: 100%;
+    height: 650px;
+}
+.navbtn{
+    background-color:#7A9798!important;
+}
+.headcover{
+    margin-top: 200px;
+}
+@media only screen and (max-width: 600px){
+    .headcover{
+        margin-top: 200px;
+      
+    }
+}
+#Template{
+    background-color: #EEF1EC;
+    
+}
+.hand{
+
+    width: 100%;
+    margin: 0 auto;
+}
+.hand img{
+    width: 80%;
+    max-height: 400px
+}
+.director{
+  
+    
+     
+    
+   
+}
+.director img{
+    border-radius:50%;
+    margin-top: 60px;
+    width: 65%;
+    height: 90%
+    
+}
+#details{
+    background-image: url('../images/map-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400px;
+    margin-top: 80px;
+    background-color: #EEF1EC;
+}
+.helpp{
+    max-width: 60%;
+}
+#download{
+    background-image: url('../images/download-bg.jpg');
+    background-repeat: no-repeat;
+    height:200px;
+    opacity: 90%;
+}
+.address a{
+    font-weight: 100;
+    text-decoration: none;
+    color:  #0F5F5C;
+}
+#Address{
+    color: #0F5F5C;
+}
+.mail{
+    position: relative
+}
+.mail input{
+    max-width: 100%;
+    color:#0F5F5C;
+    box-shadow: none;
+    border-style: dashed;
+    padding: 5px 5px;
+    outline: none;
+    outline-style: none;
+    
+}
+.fa-paper-plane{
+    font-size: 20px;
+position: absolute;
+left: 160px;
+    margin-top: 9px;
+}
+.link :nth-child(2){
+    color:blue;
+}
+.link :nth-child(4){
+    color: aqua;
+}
+.link :nth-child(5){
+    color: darkgreen;
+}
+a:hover{
+    color: red;
+}
